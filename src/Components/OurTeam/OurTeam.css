@@ -3,9 +3,9 @@
     padding: 40px;
 
     #members {
+        width: 100%;
         display: flex;
         flex-wrap: wrap;
-        width: 100%;
         justify-content: space-around;
 
         .member-item {

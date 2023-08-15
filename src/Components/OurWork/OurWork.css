@@ -1,11 +1,11 @@
 #our-work-main {
+    width: 100%;
     padding: 20px 80px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: var(--grey);
-    width: 100%;
 
     #top {
         display: flex;
