@@ -1,0 +1,39 @@
+#whatsapp-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 80px;
+    width: 100%;
+
+    #group-div {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 32px 64px;
+    }
+
+    .group-item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 24px 48px;
+        > * {
+            cursor: pointer;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #whatsapp-main {
+        padding: 20px;
+
+        #group-div {
+            padding: 24px;
+        }
+
+        .group-item {
+            padding: 8px;
+        }
+    }
+}

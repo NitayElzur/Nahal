@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  --dark-green: #0d9b7a;
+  --light-green: #29cca6;
+  --grey: #e0e0e0;
+  font-family: Heebo;
+  direction: rtl;
+  text-align: center;
+}
+
+html,
+body,
+#root {
+  height: 100vh;
+  width: 100vw;
+}
+
+button {
+  all: unset;
+}
+
+a {
+  all: unset;
+}
+
+h1 {
+  font-size: 64px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 48px;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+}

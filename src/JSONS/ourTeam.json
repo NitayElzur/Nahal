@@ -1,0 +1,72 @@
+[
+    {
+        "name": "ענבל גרינצויג",
+        "desc": "מ.חינוך לשעבר בחטיבה ואחות של אבי גרינצויג ז\"ל",
+        "img": "src\/pictures\/inbalgrintzvige.png"
+    },
+    {
+        "name": "עומר רונן",
+        "desc": "מ\"פ לשעבר בגדוד 50, סמג\"ד ב' 931 במילואים",
+        "img": "src\/pictures\/omer-ronen.png"
+    },
+    {
+        "name": "עומר רוטשילד",
+        "desc": "מ\"פ לשעבר בגדוד 50, צוות חש\"ל במילואים",
+        "img": "src\/pictures\/lum-243.png"
+    },
+    {
+        "name": "אלעד טהורי",
+        "desc": "סמח\"ט הנח\"ל לשעבר",
+        "img": "src\/pictures\/tehori.png"
+    },
+    {
+        "name": "יחיאל אמויאל",
+        "desc": "מ\"פ לשעבר ב-932, מפקד קדמית חטיבה במילואים",
+        "img": "src\/pictures\/yehiel amoyal.png"
+    },
+    {
+        "name": "יוסי פנסו",
+        "desc": "סמח\"ט הנח\"ל לשעבר",
+        "img": "src\/pictures\/yossi penso.png"
+    },
+    {
+        "name": "מור שירי",
+        "desc": "קצינת ט\"ש חטיבה לשעבר",
+        "img": "src\/pictures\/morshiri.png"
+    },
+    {
+        "name": "אוריה איזק",
+        "desc": "סמ\"פ לשעבר ב-932",
+        "img": "src\/pictures\/oriaizzac3.png"
+    },
+    {
+        "name": "אופק סלומון",
+        "desc": "מ\"פ לשעבר ב-932, מ\"פ א' במילואים בגדוד 9220 בחטיבה 6",
+        "img": "src\/pictures\/ofek salomon.png"
+    },
+    {
+        "name": "נדב טפליץ",
+        "desc": "סמ\"פ לשעבר ב-932, מ\"פ במילואים בחטיבת ירושלים",
+        "img": "src\/pictures\/nadavteplitzidf.png"
+    },
+    {
+        "name": "דין זוהר",
+        "desc": "סגן מפקדת מחווה אלון, אייש מגוון תפקידים בחטיבת הנח\"ל",
+        "img": "src\/pictures\/dinzoidf.png"
+    },
+    {
+        "name": "יפתח סוקה",
+        "desc": "סמ\"פ לשעבר ב-932, מ\"מ במילואים בגדוד 9207 חטיבה 16",
+        "img": "src\/pictures\/yiftah soka.png"
+    },
+    {
+        "name": "גיא בן סעדון",
+        "desc": "סמ\"פ לשעבר ב-50, מג\"ד במילואים גדוד 9207 חטיבה 16",
+        "img": "src\/pictures\/guy bensaadon 2.png"
+    },
+    {
+        "name": "גל ברנר",
+        "desc": "קצינת חינוך בחטיבת הנח\"ל",
+        "img": "src\/pictures\/gal brener.png"
+    }
+]

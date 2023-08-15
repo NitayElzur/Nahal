@@ -1,0 +1,22 @@
+#our-team-main {
+    width: 100%;
+    padding: 40px;
+
+    #members {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: space-around;
+
+        .member-item {
+            padding: 16px;
+            >img {
+                width: 280px;
+            }
+
+            >* {
+                text-align: center;
+            }
+        }
+    }
+}

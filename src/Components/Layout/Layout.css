@@ -1,0 +1,53 @@
+#layout-container {
+    width: 100%;
+
+    #header {
+        width: 100%;
+        position: fixed;
+        height: 15vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 160px;
+        overflow: hidden;
+        background-color: white;
+        z-index: 2;
+        box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+
+        #logo-div {
+            width: 80px;
+            cursor: pointer;
+        }
+
+        #logo {
+            width: 100%;
+        }
+    }
+
+    #footer {
+        padding: 32px;
+        width: 100%;
+
+        >a {
+            cursor: pointer;
+        }
+    }
+
+    #main-content-container {
+        width: 100%;
+        position: relative;
+        top: 15vh;
+    }
+
+    @media screen and (max-width: 768px) {
+        #header {
+            padding: 0;
+            height: 10vh;
+            justify-content: space-around;
+        }
+
+        #main-content-container {
+            top: 10vh;
+        }
+    }
+}

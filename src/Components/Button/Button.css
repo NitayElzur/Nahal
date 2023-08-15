@@ -1,0 +1,33 @@
+#button-invert,
+#button-regular {
+    cursor: pointer;
+    padding: 12px 36px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+#button-invert {
+    background-color: white;
+    color: var(--dark-green);
+    border: 2px solid var(--dark-green);
+}
+
+#button-invert:hover {
+    border: 2px solid white;
+    color: white;
+    background-color: var(--dark-green);
+    transition: all 0.2s;
+}
+
+#button-regular {
+    background-color: var(--dark-green);
+    color: white;
+    border: 2px solid white;
+    transition: all 0.2s;
+}
+
+#button-regular:hover {
+    border: 2px solid var(--dark-green);
+    background-color: white;
+    color: var(--dark-green);
+}

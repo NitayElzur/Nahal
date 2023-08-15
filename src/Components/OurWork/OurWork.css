@@ -1,0 +1,39 @@
+#our-work-main {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--grey);
+    width: 100%;
+
+    #top {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 16px;
+    }
+
+    #boxes {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+
+        #box {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            width: 240px;
+
+            #title {
+                font-weight: bold;
+            }
+
+            #second-title {
+                color: var(--dark-green);
+            }
+        }
+    }
+}
