@@ -7,7 +7,7 @@ function Layout() {
             <div id="header">
                 <Link to={'/'}>
                     <div id='logo-div'>
-                        <img id='logo' src="src\pictures\Amoutat-Nahal-Logo.png" alt="" />
+                        <img id='logo' src="https://res.cloudinary.com/dol6p0ex8/image/upload/v1692081789/Nahal/Amoutat-Nahal-Logo_v5iydv.png" alt="" />
                     </div>
                 </Link>
                 <Button text={'צרו קשר'} />
