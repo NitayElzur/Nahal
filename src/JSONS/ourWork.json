@@ -1,40 +1,40 @@
 [
     {
         "title": "הקמת קהילת בוגרי הנח\"ל",
-        "img": "src\/pictures\/our-work(1).png",
+        "img": "https://res.cloudinary.com/dol6p0ex8/image/upload/v1692081787/Nahal/our-work_1_pfc383.png",
         "text": "בכל פינה בארץ אפשר למצוא נחלוואי עם חיוך",
         "second-title": "הביחד שלנו הוא הנכס המרכזי של העמותה",
         "second-text": "צריך להתייעץ? צריך עזרה פרקטית במשהו? תמיד טוב שיהיה לך חבר/ה מהנח\"ל"
     },
     {
         "title": "תמיכה בחיילים ובוגרים מאוכלוסיות מוחלשות",
-        "img": "src\/pictures\/our-work(2).png",
+        "img": "https://res.cloudinary.com/dol6p0ex8/image/upload/v1692081787/Nahal/our-work_2_aqkrxh.png",
         "text": "פרויקט חבילות מזון בפריסה ארצית",
         "second-text": "שיפוץ דירות, ליווי וחינוך פיננסי, התנהלות מול רשויות. עוזרים בניפוץ מעגל העוני המשפחתי"
     },
     {
         "title": "הכוונה וסיוע בניווט עולם המילואים",
-        "img": "src\/pictures\/our-work(3).png",
+        "img": "https://res.cloudinary.com/dol6p0ex8/image/upload/v1692081787/Nahal/our-work_3_qvbrjc.png",
         "text": "עזרה בנושא שיבוצי מילואים, טפסים, התנהלות מול המערכת בכל נושא, ומלא קפה שחור"
     },
     {
         "title": "סיוע בשערי היציאה לאזרחות",
-        "img": "src\/pictures\/our-work(4).png",
+        "img": "https://res.cloudinary.com/dol6p0ex8/image/upload/v1692081787/Nahal/our-work_4_q39vt2.png",
         "text": "ליווי וייעוץ בתהליכי קבלת החלטות בנושאי לימודים, קריירה, התפתחות אישית, פעילויות שונות ובכל צומת דרכים אפשרית במהלך החיים הבוגרים"
     },
     {
         "title": "פרויקט מארזי מזון לחגים",
-        "img": "src\/pictures\/our-work(5).jpg",
+        "img": "https://res.cloudinary.com/dol6p0ex8/image/upload/v1692081786/Nahal/our-work_5_dae7hv.jpg",
         "text": "אריזה וחלוקת מארזי מזון למשפחות החיילים הנתמכים של חטיבת הנח\"ל"
     },
     {
         "title": "הכוונה לייעוץ",
-        "img": "src\/pictures\/our-work(6).png",
+        "img": "https://res.cloudinary.com/dol6p0ex8/image/upload/v1692081787/Nahal/our-work_6_mhldyb.png",
         "text": "ייעוץ בנושאי טיפולים פסיכולוגיים ותכניות ייעוץ לצעירים. שיתוף פעולה עם מגוון ארגונים ורשויות בתחום"
     },
     {
         "title": "אירועי התנדבות קבוצתיים",
-        "img": "src\/pictures\/our-work(7).png",
+        "img": "https://res.cloudinary.com/dol6p0ex8/image/upload/v1692081788/Nahal/our-work_7_hquzha.png",
         "text": "אין כמו להתנדב ביחד! אנחנו מארגנים אירועי התנדבות ממוקדים במגוון מוקדים בארץ"
     }
 ]
