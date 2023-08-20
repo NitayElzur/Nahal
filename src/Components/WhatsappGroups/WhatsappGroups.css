@@ -8,9 +8,14 @@
     #group-div {
         width: 100%;
         display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
         padding: 32px 64px;
+    }
+
+    .group-one, .group-two {
+        display: flex;
+        flex-direction: row;
     }
 
     .group-item {
@@ -30,10 +35,17 @@
 
         #group-div {
             padding: 24px;
+            flex-direction: row;
+            justify-content: space-around;
         }
 
         .group-item {
             padding: 8px;
         }
+
+        .group-one, .group-two {
+            flex-direction: column;
+        }
+
     }
 }

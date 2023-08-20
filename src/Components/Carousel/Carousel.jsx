@@ -67,7 +67,7 @@ function Carousel({ children, show, isRadioButtons, style }) {
                             {children.slice(0, children.length - show + 1).map((value, index) => {
                                 return (
                                     <div className='container'>
-                                        <input type="radio" defaultChecked={index === 0} name='image-select' onChange={() => setCurrentIndex(index)} />
+                                        <input type="radio" checked={currentIndex === index} name='image-select' onChange={() => setCurrentIndex(index)} />
                                         <span className="checkmark"></span>
                                     </div>
                                 )

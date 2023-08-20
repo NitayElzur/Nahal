@@ -47,6 +47,14 @@
         cursor: pointer;
     }
 
+    #left-arrow:hover {
+        animation: nudge-left 1s infinite;
+    }
+
+    #right-arrow:hover {
+        animation: nudge-right 1s infinite;
+    }
+
     #left-arrow {
         left: 24px;
     }
@@ -55,69 +63,98 @@
         right: 24px;
     }
 
-    #radio-buttons-container {
-        margin: 8px 0;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: 24px;
+}
 
-        .container {
-            width: 40px;
-            position: relative;
+#radio-buttons-container {
+    margin: 8px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
 
-            >input {
-                position: absolute;
-                opacity: 0;
-                cursor: pointer;
-                height: 24px;
-                width: 24px;
-                z-index: 1;
-                top: 0;
-                left: 0;
-            }
+    .container {
+        width: 40px;
+        position: relative;
 
-            .checkmark {
-                position: absolute;
-                top: 0;
-                left: 0;
-                height: 24px;
-                width: 24px;
-                background-color: var(--dark-green);
-                border-radius: 50%;
-            }
-        }
-
-        .container:hover .checkmark {
-            background-color: var(--light-green);
-        }
-
-        .container :checked~.checkmark {
-            background-color: var(--light-green);
-        }
-
-        .checkmark::after {
-            content: "";
+        >input {
             position: absolute;
-            display: none;
-            top: calc(50% - 6px);
-            left: calc(50% - 6px);
-            width: 12px;
-            height: 12px;
-            border-radius: 50%;
-            background: white;
+            opacity: 0;
+            cursor: pointer;
+            height: 24px;
+            width: 24px;
+            z-index: 1;
+            top: 0;
+            left: 0;
         }
 
-        .container input:checked ~ .checkmark:after {
-            display: block;
+        .checkmark {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 24px;
+            width: 24px;
+            background-color: var(--dark-green);
+            border-radius: 50%;
         }
     }
 
-    @media (hover: none) and (pointer: coarse) {
+    .container:hover .checkmark {
+        background-color: var(--light-green);
+    }
 
-        #left-arrow,
-        #right-arrow {
-            display: none;
-        }
+    .container :checked~.checkmark {
+        background-color: var(--light-green);
+    }
+
+    .checkmark::after {
+        content: "";
+        position: absolute;
+        display: none;
+        top: calc(50% - 6px);
+        left: calc(50% - 6px);
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        background: white;
+    }
+
+    .container input:checked~.checkmark:after {
+        display: block;
+    }
+}
+
+@keyframes nudge-left {
+    0% {
+        transform: translate(0%, -50%)
+    }
+
+    50% {
+        transform: translate(-5px, -50%)
+    }
+
+    100% {
+        transform: translate(0%, -50%)
+    }
+}
+
+@keyframes nudge-right {
+    0% {
+        transform: translate(0%, -50%)
+    }
+
+    50% {
+        transform: translate(5px, -50%)
+    }
+
+    100% {
+        transform: translate(0%, -50%)
+    }
+}
+
+@media (hover: none) and (pointer: coarse) {
+
+    #left-arrow,
+    #right-arrow {
+        display: none;
     }
 }
