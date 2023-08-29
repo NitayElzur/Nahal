@@ -28,7 +28,7 @@ function Home() {
                 </div>
             </ImgDiv>
             <ImgDiv img={mountainPhoto} color={'white'} height={'50vh'}>
-                <h2>הצתרפו לווצאפים של הקהילה</h2>
+                <h2>הצטרפו לווצאפים של הקהילה</h2>
                 <div className="buttons-div">
                     <a href="https://chat.whatsapp.com/BRItiyDXuPFCHZf0KAvJLe" target="_blank" rel="noopener noreferrer">
                         <Button text={'קבוצת נטוורקינג פעילה'} invert={true} />
