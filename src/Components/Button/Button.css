@@ -24,6 +24,7 @@
     color: white;
     border: 2px solid white;
     transition: all 0.2s;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 
 #button-regular:hover {

@@ -32,12 +32,19 @@
         margin-top: 32px;
         align-items: center;
     }
+}
 
-    @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
+    #img-div-main {
+
         .buttons-div {
             flex-direction: column;
 
             >* {
+                display: flex;
+                flex-direction: column;
+                align-items: stretch;
+                width: 100%;
                 margin: 8px 0;
             }
         }
